@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Form</title>
+
+
+    <!-- Boostrap style sheet -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/stylesheet.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                        <h1><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chat-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v11.586l2-2A2 2 0 0 1 4.414 11H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                          </svg> Contact Form</h1>
+                    </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li class="active"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </header>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2>Contact us Form<h2>
+                </div>
+                <div id="message" class="error">
+
+                </div>
+            </div>
+            <div class="row">
+                <form id="contactForm">
+                    <div class="col-sm-12">
+                        <br>Name: <br>
+                        <input type="text" name="firstName" class="name" id="firstName">
+                        <span class="error" id="firstNameError">This field cannot be blank</span>
+                    </div>
+                    <div class="col-sm-12">
+                        <br>Last Name: <br>
+                        <input type="text" name="lastName" class="name" id="lastName">
+                        <span class="error" id="lastNameError">This field cannot be blank</span>
+                    </div>
+                    <div class="col-sm-12">
+                        <br>Telephone: <br>
+                        <input type="text" name="phone" id="phone">
+                        <span class="error" id="phoneError">Please enter a correct phone number</span>
+                    </div>
+                    <div class="col-sm-12">
+                        <br>Email: <br>
+                        <input type="text" name="email" id="email">
+                        <span class="error" id="emailError">Please enter a correct email address</span>
+                    </div>
+
+                    <div class="col-sm-12">
+                        <button id="submitContact" class="m-t-30" type="submit">Submit <i class="fa fa-paper-plane"
+                                aria-hidden="true"></i></button>
+
+                        <p id="validation-passed-message">Input correct.</p>
+                        <p id="validation-false">Incorrect Input.</p>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        Copyright <i class="fa fa-copyright" aria-hidden="true"></i> Sara 
+    </footer>
+    <script src="script/script.js"></script>
+</body>
+
+</html>

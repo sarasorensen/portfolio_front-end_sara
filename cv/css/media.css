@@ -1,0 +1,744 @@
+/*Media queries -------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 280px) and (max-width: 653px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .toggle-button {
+    display: flex;
+  }
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+  .navbar-links ul li a {
+    padding: 0.8em 1.8em;
+    text-align: center;
+  }
+  .navbar-links .active {
+    display: flex;
+  }
+  .mainContainer {
+    width: 100%;
+  }
+  .pageDes {
+    margin-left: 0em;
+    margin-right: 1em;
+  }
+  .icon {
+    width: 8%;
+  }
+  .avatar {
+    width: 55%;
+    margin-top: 1.5em;
+  }
+  .mainText {
+    width: 95%;
+  }
+  .CTA {
+    width: 100%;
+  }
+  .CTA2 {
+    width: 100%;
+  }
+  .containerAbout {
+    width: 100%;
+    margin-top: 1.5em;
+  }
+  .aboutContent {
+    margin: 0;
+    margin-left: 1em;
+    width: 90%;
+  }
+  .flex-item {
+    width: 100%;
+  }
+  .flex-box {
+    width: 100%;
+  }
+  .flex-item {
+    width: 100%;
+    height: 100%;
+  }
+  .flex-item__small {
+    width: 100%;
+    height: 100%;
+  }
+  .projectBtn {
+    width: 90%;
+  }
+  .eventHe {
+    margin: 1em;
+  }
+  .footer-icon {
+    width: 10%;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 568px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .toggle-button {
+    display: flex;
+  }
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+  .navbar-links ul li a {
+    padding: 0.8em 1.8em;
+    text-align: center;
+  }
+  .navbar-links.active {
+    display: flex;
+  }
+  .mainContainer {
+    width: 100%;
+  }
+  .pageDes {
+    margin-left: 0em;
+    margin-right: 1em;
+  }
+  .icon {
+    width: 8%;
+  }
+  .avatar {
+    width: 55%;
+    margin-top: 1.5em;
+  }
+  .mainText {
+    width: 95%;
+  }
+  .CTA {
+    width: 100%;
+  }
+  .CTA2 {
+    width: 100%;
+  }
+  .containerAbout {
+    width: 100%;
+    margin-top: 1.5em;
+  }
+  .aboutContent {
+    margin: 0;
+    margin-left: 1em;
+    width: 90%;
+  }
+  .flex-item {
+    width: 100%;
+  }
+  .flex-box {
+    width: 100%;
+  }
+  .flex-item {
+    width: 100%;
+    height: 100%;
+  }
+  .flex-item__small {
+    width: 100%;
+    height: 100%;
+  }
+  .projectBtn {
+    width: 50%;
+  }
+  .eventHe {
+    margin: 1em;
+  }
+  .footer-icon {
+    width: 10%;
+  }
+}
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .toggle-button {
+    display: flex;
+  }
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+  .navbar-links ul li a {
+    padding: 0.8em 1.8em;
+    text-align: center;
+  }
+  .navbar-links.active {
+    display: flex;
+  }
+  .icon {
+    width: 15%;
+  }
+  .avatar {
+    width: 55%;
+    margin-top: 1.5em;
+  }
+  .mainText {
+    width: 90%;
+    margin: 5%;
+  }
+  .CTA {
+    width: 100%;
+  }
+  .CTA2 {
+    width: 100%;
+  }
+  .aboutContent {
+    margin: 0;
+    margin-left: 1em;
+    width: 90%;
+  }
+  .containerAbout {
+    width: 100%;
+    margin-top: 1.5em;
+  }
+  .flex-item {
+    width: 100%;
+  }
+  .flex-box {
+    width: 100%;
+  }
+  .flex-item {
+    width: 100%;
+    height: 100%;
+  }
+  .flex-item__small {
+    width: 100%;
+    height: 100%;
+  }
+  .footer-icon {
+    width: 10%;
+  }
+}
+@media only screen and (min-width: 375px) and (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .toggle-button {
+    display: flex;
+  }
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+  .navbar-links ul li a {
+    padding: 0.8em 1.8em;
+    text-align: center;
+  }
+  .navbar-links.active {
+    display: flex;
+  }
+  .mainContainer {
+    width: 100%;
+  }
+  .pageDes {
+    margin-left: 0em;
+    margin-right: 1em;
+  }
+  .icon {
+    width: 8%;
+  }
+  .avatar {
+    width: 55%;
+    margin-top: 1.5em;
+  }
+  .mainText {
+    width: 100%;
+  }
+  .CTA {
+    width: 100%;
+  }
+  .CTA2 {
+    width: 100%;
+  }
+  .containerAbout {
+    width: 100%;
+    margin-top: 1.5em;
+  }
+  .aboutContent {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .flex-item {
+    width: 100%;
+  }
+  .flex-box {
+    width: 100%;
+  }
+  .flex-item {
+    width: 100%;
+    height: 100%;
+  }
+  .flex-item__small {
+    width: 100%;
+    height: 100%;
+  }
+  .footer-icon {
+    width: 10%;
+  }
+}
+@media only screen and (min-width: 375px) and (max-width: 812px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .toggle-button {
+    display: flex;
+  }
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+  .navbar-links ul li a {
+    padding: 0.8em 1.8em;
+    text-align: center;
+  }
+  .navbar-links.active {
+    display: flex;
+  }
+  .mainContainer {
+    width: 100%;
+  }
+  .pageDes {
+    margin-left: 0em;
+    margin-right: 1em;
+  }
+  .icon {
+    width: 8%;
+  }
+  .avatar {
+    width: 55%;
+    margin-top: 1.5em;
+  }
+  .mainText {
+    width: 100%;
+  }
+  .CTA {
+    width: 100%;
+  }
+  .CTA2 {
+    width: 100%;
+  }
+  .containerAbout {
+    width: 100%;
+    margin-top: 1.5em;
+  }
+  .aboutContent {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .flex-item {
+    width: 100%;
+  }
+  .flex-box {
+    width: 100%;
+  }
+  .flex-item {
+    width: 100%;
+    height: 100%;
+  }
+  .flex-item__small {
+    width: 100%;
+    height: 100%;
+  }
+  .footer-icon {
+    width: 10%;
+  }
+}
+@media only screen and (min-width: 414px) and (max-width: 736px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .toggle-button {
+    display: flex;
+  }
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+  .navbar-links ul li a {
+    padding: 0.8em 1.8em;
+    text-align: center;
+  }
+  .navbar-links.active {
+    display: flex;
+  }
+  .icon {
+    width: 8%;
+  }
+  .avatar {
+    width: 30%;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-top: 35%;
+  }
+  .mainText {
+    width: 55%;
+    margin-left: 5%;
+  }
+  .CTA {
+    width: 100%;
+  }
+  .CTA2 {
+    width: 100%;
+  }
+  .aboutContent {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .containerAbout {
+    width: 100%;
+    margin-top: 1.5em;
+  }
+  .flex-item {
+    width: 100%;
+  }
+  .flex-box {
+    width: 100%;
+  }
+  .flex-item {
+    width: 100%;
+    height: 100%;
+  }
+  .flex-item__small {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media only screen and (min-width: 414px) and (max-width: 896px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .toggle-button {
+    display: flex;
+  }
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+  .navbar-links ul li a {
+    padding: 0.8em 1.8em;
+    font-size: 0.5em;
+    text-align: center;
+  }
+  .navbar-links.active {
+    display: flex;
+  }
+  .icon {
+    width: 8%;
+  }
+  .avatar {
+    width: 35%;
+    margin-top: 5%;
+  }
+  .mainText {
+    width: 60%;
+    margin-left: 0.5em;
+    margin-right: 0;
+  }
+  .CTA {
+    width: 95%;
+  }
+  .CTA2 {
+    width: 95%;
+  }
+  .aboutContent {
+    width: 90%;
+    margin: 0;
+    margin-left: 1em;
+  }
+  .containerAbout {
+    min-width: 100%;
+    margin-top: 1.5em;
+  }
+  .flex-item {
+    width: 100%;
+  }
+  .flex-box {
+    width: 100%;
+  }
+  .flex-item {
+    width: 100%;
+    height: 100%;
+  }
+  .flex-item__small {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media only screen and (min-width: 690px) and (max-width: 800px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .toggle-button {
+    display: flex;
+  }
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+  .navbar-links ul li a {
+    padding: 0.8em 1.8em;
+    text-align: center;
+  }
+  .navbar-links.active {
+    display: flex;
+  }
+  .navbar-links li a {
+    display: block;
+    font-size: 1.5em;
+    padding: 0.8em;
+    margin: 1em;
+  }
+  .navbar-links li a:hover {
+    cursor: pointer;
+  }
+  .icon {
+    width: 10%;
+  }
+  .avatar {
+    width: 35%;
+    margin-top: 15%;
+  }
+  .mainText {
+    width: 50%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .aboutContent {
+    width: 70%;
+    margin-left: 15%;
+  }
+  .containerAbout {
+    min-width: 100%;
+    margin-top: 1.5em;
+  }
+  .CTA {
+    min-width: 90%;
+  }
+  .CTA2 {
+    min-width: 90%;
+  }
+  .flex-item {
+    width: 100%;
+    height: 100%;
+  }
+  .flex-item__small {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .toggle-button {
+    display: flex;
+  }
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+  .navbar-links ul li a {
+    padding: 0.8em 1.8em;
+    text-align: center;
+  }
+  .navbar-links.active {
+    display: flex;
+  }
+  .icon {
+    width: 10%;
+  }
+  .avatar {
+    width: 30%;
+    margin-left: 15%;
+    margin-top: 10%;
+  }
+  .mainText {
+    width: 40%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .CTA {
+    min-width: 100%;
+  }
+  .CTA2 {
+    min-width: 100%;
+  }
+  .aboutContent {
+    width: 70%;
+    margin-left: 10%;
+  }
+  .containerAbout {
+    min-width: 100%;
+    margin-top: 1.5em;
+  }
+  .flex-item {
+    width: 40%;
+  }
+  .flex-box {
+    width: 40%;
+  }
+  .projectBtn {
+    width: 50%;
+  }
+  .flex-item {
+    width: 100%;
+    height: 100%;
+  }
+  .flex-item__small {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media only screen and (min-width: 724px) and (max-width: 1024px) and (orientation: landscape) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .toggle-button {
+    display: flex;
+  }
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+  .navbar-links ul li a {
+    padding: 0.8em 1.8em;
+    text-align: center;
+  }
+  .navbar-links.active {
+    display: flex;
+  }
+  .icon {
+    width: 10%;
+  }
+  .avatar {
+    width: 30%;
+    margin-left: 15%;
+    margin-top: 10%;
+  }
+  .mainText {
+    width: 40%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .CTA {
+    min-width: 100%;
+  }
+  .CTA2 {
+    min-width: 100%;
+  }
+  .aboutContent {
+    width: 70%;
+    margin-left: 10%;
+  }
+  .containerAbout {
+    min-width: 100%;
+    margin-top: 1.5em;
+  }
+  .flex-item {
+    width: 40%;
+  }
+  .flex-box {
+    width: 40%;
+  }
+  .projectBtn {
+    width: 50%;
+  }
+  .flex-item {
+    width: 100%;
+    height: 100%;
+  }
+  .flex-item__small {
+    width: 100%;
+    height: 100%;
+  }
+  .projectBtn {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1320px) {
+  .mainText {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .icon {
+    width: 10%;
+  }
+  .avatar {
+    width: 30%;
+    margin-left: 15%;
+  }
+  .mainText {
+    width: 40%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .CTA {
+    min-width: 30%;
+  }
+  .CTA2 {
+    min-width: 30%;
+  }
+  .aboutContent {
+    width: 70%;
+    margin-left: 10%;
+  }
+  .footer-top {
+    width: 100%;
+    text-align: right;
+    margin-right: 0;
+  }
+}

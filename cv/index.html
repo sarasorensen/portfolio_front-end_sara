@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sara Sørensen's CV website for front-end development, get to know me!"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Sintony:700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <link rel="stylesheet" href="css/media.css" />
+
+    <link rel="icon" href="images/avatar.png" />
+    <title>Sara Sørensen CV</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar" id="navbar">
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+
+        <div role="navigation" class="navbar-links">
+          <ul class="nav navbar-nav">
+            <li class="link"><a href="#about">About Me</a></li>
+            <li class="link"><a href="#resume">Resume</a></li>
+            <li class="link"><a href="#projects">Projects</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="mainContainer">
+        <article class="mainText">
+          <h1>Sara Sørensen</h1>
+          <h2>Front-end developer</h2>
+          <p class="pageDes">
+            Studying the technology where visual design meets coding
+          </p>
+          <button id="CTA" class="CTA">Hire Me</button>
+          <button id="CTA2" class="CTA2">See more</button>
+        </article>
+        <img
+          class="avatar"
+          src="images/avatar.png"
+          alt="An avatar illustration of an woman"
+        />
+      </div>
+    </header>
+
+    <div id="about" class="containerAbout">
+      <div class="aboutContent">
+        <p class="brand-about">Age 23</p>
+        <p class="brand-about">
+          email
+          <a href="mailto:sarasorensen97@hotmail.com">see more</a>
+        </p>
+
+        <p>
+          I'm currently studying to become a Front-end Developer, at Noroff
+          School of technology and digital media. We just started our 2nd year,
+          and I will graduate March 2021.
+        </p>
+
+        <p>
+          As I graduate I will be a trained frontend developer with the
+          knowledge, skills and expertise needed to develop and produce
+          user-oriented solutions and services for web and mobile devices.
+        </p>
+        <a href="mailto:sarasorensen97@hotmail.com">
+          <img class="icon" src="images/mail.png" alt="An icon of mail"
+        /></a>
+        <a href="https://github.com/sarasorensen">
+          <img
+            class="icon"
+            src="images/github.png"
+            alt="An icon of github logo"
+        /></a>
+        <a href="https://www.facebook.com/saramorksorensen/">
+          <img class="icon" src="images/fb.png" alt="An icon of facebook logo"
+        /></a>
+      </div>
+    </div>
+
+    <div class="eventsRow">
+      <div id="resume" class="eventHe">
+        <h2>Resume</h2>
+      </div>
+
+      <div class="flex-container">
+        <div class="flex-item">
+          <h3 class="heading">skills</h3>
+          <ul class="list">
+            <li>Web and coding</li>
+            <li>UX Design</li>
+            <li>Graphic Design</li>
+            <li>Hobby Photography</li>
+          </ul>
+        </div>
+
+        <div class="flex-item">
+          <h3 class="heading">education</h3>
+          <ul class="list">
+            <li><span class="bold">Mar 2019 - Mar 2021</span></li>
+            <li>Front-end Development</li>
+            <li><span class="bold">Aug 2013 - June 2016</span></li>
+            <li>Media & Communication</li>
+          </ul>
+        </div>
+
+        <div class="flex-item__small">
+          <h3 class="heading">Certificates</h3>
+          <ul class="list">
+            <li>
+              <p
+                class="flex-link"
+                onclick="NewTab('https://www.freecodecamp.org/certification/milasara/responsive-web-design');"
+              >
+                Responsive Web Design
+              </p>
+            </li>
+            <li>
+              <p
+                class="flex-link"
+                onclick="NewTab('https://www.freecodecamp.org/certification/milasara/javascript-algorithms-and-data-structures')"
+              >
+                Javascript Algorithms and Data Structures
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="flex-item__small">
+          <h3 class="heading">Courses</h3>
+          <ul class="list">
+            <li>Education First English Course</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="gallery">
+      <div class="projectRow">
+        <div id="projects" class="eventHe">
+          <h2>Projects</h2>
+        </div>
+
+        <div id="projects-disp" class="columnGa"></div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-item">
+        <div class="footer-container">
+          <h2 class="brand-title-footer">Sara Sørensen</h2>
+          <p>A creative front-end developer.</p>
+          <p>
+            For inquiries contact me at
+            <a href="mailto:sarasorensen97@hotmail.com"
+              >sarasorensen97@hotmail.com</a
+            >
+          </p>
+          <img
+            onclick="NewTab('mailto:sarasorensen97@hotmail.com')"
+            class="footer-icon"
+            src="images/mail.png"
+            alt="An icon of mail"
+          />
+
+          <img
+            onclick="NewTab('https://github.com/sarasorensen')"
+            class="footer-icon"
+            src="images/github.png"
+            alt="An icon of github logo"
+          />
+
+          <img
+            onclick="NewTab('https://www.facebook.com/saramorksorensen/')"
+            class="footer-icon"
+            src="images/fb.png"
+            alt="An icon of facebook logo"
+          />
+        </div>
+      </div>
+    </footer>
+    <script src="scripts/projects.js"></script>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>

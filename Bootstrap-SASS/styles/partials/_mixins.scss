@@ -1,0 +1,24 @@
+@mixin body-text{
+    font-family: $lato;
+    font-size: 16px;
+}
+@mixin logo{
+    font-family: $noto;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 22px;
+    color: $contrast-color;
+}
+
+@mixin btns{
+    font-size: $other;
+    background-color: $contrast-color;
+    color: $clickable-color;
+    border-radius: 0;
+    border: none;
+    &:hover{
+    background-color: $hover-color;
+    color: $clickable-color;
+    }
+}
+

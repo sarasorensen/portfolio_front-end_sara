@@ -1,0 +1,37 @@
+body{
+@include body-text;
+width: 100%;
+}
+a.nav-link:hover{
+    color: $contrast-color !important;
+}
+.container-fluid{
+    max-width: 95%;
+}
+.col-lg-12{
+    margin-top: 5%;
+}
+.col-sm-12{
+    padding: 0;
+    margin: 0;
+    margin-top: 5%;
+}
+
+
+//footer
+footer{
+    background-color: $main-bckgr;
+    padding-top: 1em;
+    width: 100%;
+    margin-top: 5%;
+}
+.footer--copyright{
+    font-size: $footer-text;
+}
+.icons{
+    color: $hover-color;
+}
+.icon{
+    margin-left: 1em;
+}
+

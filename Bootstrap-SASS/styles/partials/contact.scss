@@ -1,0 +1,41 @@
+//Contcact form
+.form--container{
+    background-color: $main-bckgr;
+    margin-top: 5%;
+    margin: 1em;
+    border-radius: 5px;
+    padding: 2.5em;
+    padding-bottom: 5em;
+}
+.container--heading{
+    margin-top: 5%;
+    margin-left: 1em;
+    font-weight: bold;
+}
+.form-input{
+    border: 0px;
+    margin-top: 2rem;
+}
+.btn-success{
+    @include btns;
+    border-radius: 5px;
+    width: 30%;
+    margin-top: 1.5em;
+}
+.accordion{
+    margin: 1em;
+}
+.accordion--sub{
+    margin-top: 10%;
+    margin-left: 1em;
+    font-weight: bold;
+}
+.accordion--panel{
+    margin: 0;
+}
+.accordion--panel__title{
+    color: $dark-grey;
+    &:hover{
+        color: $contrast-color;
+    }
+}

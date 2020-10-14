@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Bootstrap 4 course assignment - Sara Sørensen">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Frameworks - CA contact page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="styles/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-light navbar-expand-md">
+
+            <div class="d-block d-md-none">
+                <a href="index.html" class="navbar-brand"><span class="text-uppercase">yay</span> </a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"
+                aria-label="Toggle Navigation" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse text-center" id="collapsibleNavbar">
+                <a class="navbar-brand d-none d-md-block d-lg-block d-xl-block" href="index.html">The <span
+                        class="text-uppercase">yay</span>
+                    Company</a>
+
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item text-uppercase">
+                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item text-uppercase">
+                        <a class="nav-link" href="news.html">News</a>
+                    </li>
+                    <li class="nav-item text-uppercase active shadow">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+
+                <form class="navbar-form form-inline" role="search">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="search">
+                    <button class="btn btn-default navbar-btn my-2 my-sm-0" type="submit"><span
+                            class="text-uppercase">Go</span></button>
+                </form>
+            </div>
+        </nav>
+
+
+    </header>
+
+    <div class="container-fluid ">
+        <div class="row">
+
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <h1 class="container--heading">Contact</h1>
+
+                <form class="form--container">
+                    <div class="form-group">
+                        <label class="sr-only" for="inputName">Name</label>
+                        <input type="text" id="inputName" class="form-control form-input" placeholder="Name">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="sr-only" for="inputNumber">Phonenumber</label>
+                        <input type="number" id="inputNumber" class="form-control form-input" placeholder="Phone">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="sr-only">Email address</label>
+                        <input type="email" class="form-control form-input" placeholder="Email">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="sr-only">Message</label>
+                        <textarea class="form-control form-input" rows="3" placeholder="Message"></textarea>
+                    </div>
+
+                    <input class="btn btn-success float-right text-uppercase" type="submit" value="send">
+                </form>
+            </div>
+
+            <div class="col-md-6 col-sm-12 col-xs-12 ">
+                <h2 class="accordion--sub">Services</h2>
+
+                <div id="accordion" class="accordion">
+                    <div class="card accordion--panel">
+                        <div class="card-header" id="headingOne">
+                            <h3 class="mb-0">
+                                <button class="btn btn-link accordion--panel__title" data-toggle="collapse"
+                                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Morbi nunc odio
+                                </button>
+                            </h3>
+                        </div>
+
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>Lorem ipsum fatale</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card accordion--panel">
+                        <div class="card-header" id="headingTwo">
+                            <h3 class="mb-0">
+                                <button class="btn btn-link collapsed accordion--panel__title" data-toggle="collapse"
+                                    data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Lacus euismod auctor
+                                </button>
+                            </h3>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>Lacus euismod auctor Lacus euismod auctor Lacus euismod auctor</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card accordion--panel">
+                        <div class="card-header" id="headingThree">
+                            <h3 class="mb-0">
+                                <button class="btn btn-link collapsed accordion--panel__title" data-toggle="collapse"
+                                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Quisque ultricies nibh quis
+                                </button>
+                            </h3>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                            data-parent="#accordion">
+                            <div class="card-body">
+                                <p> Quisque ultricies nibh quis Quisque ultricies nibh quis...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card accordion--panel">
+                        <div class="card-header" id="headingFour">
+                            <h3 class="mb-0">
+                                <button class="btn btn-link collapsed accordion--panel__title" data-toggle="collapse"
+                                    data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Commodo condimentum justo
+                                </button>
+                            </h3>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                            <div class="card-body">
+                                <p> Quisque ultricies Commodo condimentum justo...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card accordion--panel ">
+                        <div class="card-header" id="headingFive">
+                            <h3 class="mb-0">
+                                <button class="btn btn-link collapsed accordion--panel__title" data-toggle="collapse"
+                                    data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Sagittis tellus enim nec lectus
+                                </button>
+                            </h3>
+                        </div>
+
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                            <div class="card-body">
+                                <p> Sagittis tellus enim nec lectus...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6 text-center text-md-left p-2 icons">
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-twitter icon"></i>
+                    <i class="fab fa-android icon"></i>
+                    <i class="fab fa-apple icon"></i>
+                </div>
+
+                <div class="col-md-6 text-center text-md-right p-2 text-muted">
+                    <p class="footer--copyright">Copyright <span class="text-uppercase font-weight-bold">yay</span> 2019
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.js"
+        integrity="sha256-2JRzNxMJiS0aHOJjG+liqsEOuBb6++9cY4dSOyiijX4=" crossorigin="anonymous"></script>
+</body>
+
+</html>

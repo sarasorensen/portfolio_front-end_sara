@@ -1,0 +1,62 @@
+header{
+    width: 100%;
+}
+.navbar{
+    background-color: $main-bckgr;
+    padding-bottom: 1.5em;
+}
+
+.navbar-light .navbar-brand{
+    @include logo;
+    margin-right: 5%;
+}
+.navbar-light .navbar-brand:hover{
+    background-color: transparent;
+    color: $contrast-color;
+}  
+.nav-item{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    & .nav-link{
+    font-size: $other;
+    transition: $transition;
+    }
+    &.active{
+        background-color: $clickable-color;
+    }
+}
+.navbar-light .navbar-toggler{
+    border-color: transparent;
+}
+.navbar-btn{
+  @include btns;
+  padding: .375rem .75rem;
+}
+.navbar-form{
+    justify-content: center;
+}
+.form-control{
+    padding: 1em;
+    font-size: $other;
+    border-radius: 0;
+    font-weight: lighter;
+    border: none;
+}
+.form-inline .form-control{
+    width: 70%;
+}
+.mr-sm-2, .mx-sm-2 {
+    margin-right: 0rem!important;
+}
+.navbar-collapse{
+    padding-top: 1em;
+}
+.navbar-collapse .nav-item{
+    margin-top: 5%;
+     margin-bottom: 5%;
+}
+.carousel-indicators li{
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}

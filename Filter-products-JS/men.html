@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baskervville&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <title>Letha ProductPage</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul id="menubar">
+                <li><a href="index.html">Home</a></li>
+                <li class="active1"><a href="men.html">Men</a></li>
+                <li><a href="membership.html">Become a member</a></li>
+                <li class="basket"><a href="yourbasket.html">Your Basket</a></li>
+            </ul>
+        </nav>
+
+
+        <h1 class="logo"><a href="index.html">Le<span class="coloredtext">t</span>ha</a></h1>
+
+    </header>
+
+    <div id="menu2">
+        <p class="secondaryMenu"><a class="secondary" href="index.html">Home</a> > <a class="secondary"
+                href="men.html">Men's Products</a></p>
+    </div>
+
+    <div id="myBtnContainer">
+        <button class="btn" onclick="filterShoes('all')"> Show all</button>
+        <button class="btn" onclick="filterShoes('hiking')"> Hiking Shoes</button>
+        <button class="btn" onclick="filterShoes('boots')"> Boots</button>
+        <button class="btn" onclick="filterShoes('sneakers')"> Sneakers</button>
+    </div>
+
+    <div id="sortContainer">
+        <button class="btn2" onclick="sortShoes('price')">Sort by price</button>
+        <button class="btn2" onclick="sortShoes('popularity')">Sort by Popularity</button>
+    </div>
+
+    <div class="content-container">
+        <div id="productContainer">
+        </div>
+    </div>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="men.html">Men</a></li>
+                <li><a href="membership.html">Become a member</a></li>
+                <li><a href="sizeguide.html">Size guide</a></li>
+                <li><a href="yourbasket.html">Your Basket</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+
+</body>
+
+</html>
